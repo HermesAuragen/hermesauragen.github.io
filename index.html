@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/fontawesome-free-6.2.1-web/css/all.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("X1dU43x0fi84t6lbP");
+   })();
+</script>
+
+    <title>Auragen Innovations</title>
+</head>
+<body>
+
+    <!-- header design -->
+
+    <div class="header">
+        <a href="#" class="logo">AuraGen</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </div>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Hello, It's us</h3>
+
+            <h1>Auragen</h1>
+
+            <h3> Your <span class="multiple-text"></span></h3>
+
+            <p>endowing energy users with energy security via automated processes.       
+            </p>
+
+            <div class="social-media">
+                <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="linked-in"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <a href="/resources/downloads/AURAGEN HERMES ONE PAGER.docx" class="btn">Download Brochure</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/portfolio-6.png" class="hero" alt="">
+        </div>
+
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+
+            <img src="img/about.png" alt="">
+
+        </div>
+
+        <div class="about-content">
+
+            <h2 class="heading">About <span>Us</span></h2>
+            <h3>Auragen Technologies</h3>
+            <p>
+                Auragen Technologies is a smart energy startup bootstrapping operations out of Botswana,
+                Sub Saharan Africa. We use dynamic & personalized advanced methods that translate into work-flow 
+                engines that are relevant to the region's needs. 
+                The described methods empower energy users by alloting them the requisite capital to achieve their 
+                energy access goals.
+            </p>
+            
+            <a onclick="reveal()" href="#about" class="btn" id="readContentBtn">Read More</a>
+
+            <div class="aboutContent" id="aboutContent">
+
+                    Sub-Saharan Africa is home to <span>1.35 billion inhabitants</span>, with 6.9 ppl on average/household. 
+                    This effectively means that the region is home to around <span>196 million homes</span> & over half 
+                    of the region's inhabitants lack basic energy access. <span>Why you may ask? </span> Answer: 
+                    <span>Processes</span> Everything is a process, even energy access falls under this <span>maxim</span>, 
+                    i.e. to say better process management makes it conducive to access energy, without these processes
+                    energy becomes inaccessible. 
+                    Failure to develop better methods, processes etc. elicites the status quo the region is currently
+                    experiencing.
+
+                    <span>Auragen Innovations</span> as a startup looks to change this status quo through it's 
+                    <span>Hermes Digital Experience Platform</span> that looks to correct the processes that have failed 
+                    resolve the region's energy problems.
+
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- services design section -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box" id="service-box1">
+                <i class="fa-solid   fa-cube"></i>
+                <h3>Platform Services</h3>
+                <p>
+                    A combination of different capabilities from different domains coming together
+                    to drive our customers goals via dynamic, personalized & relevant automated processes.
+                </p>
+
+                <button onclick="toggle()" id="platform-content"><a href="#service-box1" class="btn">Read More</a>
+                    
+                    <div class="content" id="hidden-content">
+                        <p>
+                            Everything & anything worth doing is a process, the questions surrounding the process
+                            itself is control, ability & capabilities that ensure success. So failure is already
+                            determined if the processes themselves are not right for a chosen task. That is why 
+                            Auragen Innovations is dedicated to taking up the mantle of developing & managing task 
+                            oriented methods that are optimized to bring about energy access, security & more.
+                            
+                            <span>Hermes,</span> a <span>digital experience platform</span> is an automated process demand response platform
+                            for energy users seeking energy access. It is a resource database of sorts that empower
+                            users to realize energy security comfortably at their own discretion.
+                            This concierge like ability gives better response time & and all round availability. With
+                            Hermes users are now covered, their daily energy service needs are provisioned for, via the
+                            platform.
+                        </p>
+                    </div>
+                </button>  
+                    
+            </div>
+
+            <div class="services-box" id="service-box2">
+                <i class="fa-solid fa-plug"></i>
+                <h3>Stand Alone Infrastructure</h3>
+                <p>
+                    Energy access is our customers endgame, it is our opinion that, one's own needs should be met by one's
+                    own willingness to explore solutions to their own problem & that is now a possibility. With Auragen, 
+                    customers can now explore autonomous standalone energy systems to resolve their energy needs, 
+                    which they can lease without any upfront cost or budget. 
+                </p>
+                
+                <button onclick="toggle1()" id="platform-content"><a href="#service-box2" class="btn">Read More</a>
+                    
+                    <div class="content2" id="hidden-content1" style="display: none;">
+                        <p>
+                            <span>Autonomous Small Scale Energy Infrastructure</span> equates to independence from big
+                            <span>Energy Service Corporations.</span> That means when acquired, users can control the 
+                            energy narrative. The hardware generates energy for the user, wealth for the owner & even
+                            pays for itself.
+                            <span>Individuals & communities</span> can own such infrastructure through the 
+                            <span>Hermes DXP</span>
+                            <span>Question: How?</span> <span>Answer: Subscribe to the platform for only $10/month</span>. That 
+                            amount can help us help users acquire infrastructure in the region of <span>100's of thousands</span>  
+                            to millions of US dollars.
+                        </p>
+                    </div>
+                </button>  
+            </div>
+            
+            <div class="services-box" id="service-box3">
+                <i class="fa-solid  fa-sliders"></i>
+                <h3>Relationships</h3>
+                <p>
+                    Having acquired the requisite Infrastructure our customers can manage their assets through the
+                    platform to maximize efficiency & informed decision making, through the metric store, store surplus
+                    energy, on the grid scale energy storage facilities near them or sell their energy via the same apparatus
+                </p>
+                
+                <button onclick="toggle2()" id="platform-content"><a href="#service-box3" class="btn">Read More</a>
+                    
+                    <div class="content" id="hidden-content2" style="display: none;">
+                        <p>
+                            <span>Energy User</span> acquisitions are buoyed by the platform, <span>Our duty</span> does
+                            not end with settling users with an unpayable bill. We also guide users through the process 
+                            of repaying the goodwill alloted to users by our partners & vendors by empowering users
+                            with capabilities that allow users payback for the acquisitions. Hermes as a platform allots
+                            users with other capabilities that are powered by automated processes that incent users to use
+                            <span>energy efficiently, </span><span>endow better decision </span><span>making, 
+                            motivating users to trade energy, customer relationship management,</span> 
+                            <span>customer asset management & more.</span>   
+                        </p>
+                    </div>
+                </button> 
+            </div>
+        </div>
+
+    </section>
+
+     <!-- read more section design -->
+
+    <!-- project section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img/portfolio-1-alt.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Platform</h4>
+                    <p> 
+                        Subscribe to become a member, build a team of 3rd party vendors & issue implementation/electrification 
+                        tasks to the DXP to access energy without any initial investment outlay
+                    </p>
+                    <a href="#"><i class="fa-solid fa-cubes"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio-2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Vendors</h4>
+                    <p>
+                        Hire a project manager to help you plan & develop your energy system. Use their experience to select the  
+                        best infrastructure & partners requisite to your undertaking.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-truck"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio-4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Investment</h4>
+                    <p>
+                        You can partner up with investors who are already aware of your situation. This option allows you
+                        to use future energy generation to service your acquisition costs.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-line-chart"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="img/portfolio-5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Financing</h4>
+                    <p>
+                        You can borrow from financiers who are already aware of your situation. This option allots you the opportunity
+                        of using future energy generation to service your debt.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-credit-card-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio-3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Relationships</h4>
+                    <p>
+                        Manage long-term or short-term relationships. Short-term relationships extend to your relationship with your 
+                        team whilst long-term relationships extends to fudiciary partners. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-object-group"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="img/portfolio-1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Hermes DXP</h4>
+                    <p>
+                        To manage on site assets remotely & to continously access maintainence or support services you can use the platform
+                        that is equipped with a dashboard for your convinience.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us!</span></h2>
+
+        <form onsubmit="sendEmail(); reset(); return false;">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="fullName">
+                <input type="email" placeholder="Email Address" id="email_id">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="mobileNumber">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button onclick="sendMail()">
+                <input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+            </button> 
+
+        </form>
+    </section>
+    
+    <!-- footer design -->
+    
+    <footer class="footer">
+
+        <div class="footer-text">
+            
+            <p>Copyright &copy; 2023 by Auragen Technologies | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Send email js -->
+    
+    </script>    
+
+    <!-- scroll reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- custom js -->
+
+    <script src="app.js"></script>
+</body>
+</html>
