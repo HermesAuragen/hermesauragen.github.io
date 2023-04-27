@@ -171,8 +171,7 @@ function sendEmail(){
             console.log(res);
             
             alert("your message has been sent successfully!");
-        }
-    );
+        })
     .catch((err) => console.log(err));
 
 }
