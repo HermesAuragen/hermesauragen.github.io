@@ -60,7 +60,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*========================================= typed js ===================================================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Energy Concierge', 'Partner', '& Solution Provider'],
+    strings: ['Energy Access Partner', 'Smart Energy Partner', 'Solution Provider'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -169,9 +169,11 @@ function sendEmail(){
             document.querySelector("#email_id").value = "";
             document.querySelector("#message").value = "";
             console.log(res);
-            alert('your message has been sent successfully!')
-        })
-        .catch((err) => console.log(err));
+            
+            alert("your message has been sent successfully!");
+        }
+    );
+    .catch((err) => console.log(err));
 
 }
 
